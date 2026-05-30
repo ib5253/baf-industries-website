@@ -343,5 +343,5 @@ body:has(.page-hero)::after{
   background:radial-gradient(circle,rgba(91,155,255,.22),transparent 65%);
   top:-180px;right:-160px;pointer-events:none;filter:blur(20px);z-index:0;
 }
-body:has(.page-hero) > *{position:relative;z-index:1}
+body:has(.page-hero) main, body:has(.page-hero) footer{position:relative;z-index:1}
 
