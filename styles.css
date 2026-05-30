@@ -46,7 +46,7 @@ h1,h2,h3{letter-spacing:-.02em}
 .site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
 .nav{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:20px}
 .brand{display:inline-flex;align-items:center;gap:12px;color:var(--navy);text-decoration:none}
-.brand-mark{display:block;width:408px;height:103px;background:url('/public/assets/baf-logo.png') left center / contain no-repeat;text-indent:-9999px;overflow:hidden;flex-shrink:0}
+.brand-mark{display:block;width:408px;height:103px;background:url('/assets/baf-logo.png') left center / contain no-repeat;text-indent:-9999px;overflow:hidden;flex-shrink:0}
 .brand>span:not(.brand-mark){position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .nav-links{display:flex;align-items:center;gap:2px;list-style:none;margin:0;padding:0}
 .nav-links a{color:var(--slate);font-weight:600;font-size:14px;padding:10px 12px;border-radius:999px;white-space:nowrap}
@@ -63,7 +63,7 @@ h1,h2,h3{letter-spacing:-.02em}
   position:relative;min-height:415px;display:flex;align-items:center;color:#fff;
   background:
     linear-gradient(90deg,rgba(7,19,35,.97) 0%,rgba(7,19,35,.88) 42%,rgba(7,19,35,.55) 72%,rgba(7,19,35,.3) 100%),
-    url('/public/assets/hvac-installed.jpg') center/cover;
+    url('/assets/hvac-installed.jpg') center/cover;
 }
 .hero-inner{max-width:920px;padding-block:40px}
 .kicker{display:inline-flex;align-items:center;gap:10px;font-size:12px;text-transform:uppercase;letter-spacing:.18em;font-weight:800;color:#9ff3ff}
@@ -182,11 +182,11 @@ section{padding:96px 0;position:relative}
   padding:110px 0 90px;
   background:
     linear-gradient(135deg,rgba(7,19,35,.94),rgba(19,37,58,.85)),
-    url('/public/assets/workshop-bg.jpg') center/cover;
+    url('/assets/hvac-workshop.jpg') center/cover;
   color:#fff;position:relative;
 }
 .page-hero h1{max-width:930px;margin-top:18px}
-.page-hero--products{background:linear-gradient(135deg,rgba(7,19,35,.88),rgba(19,37,58,.78)),url('/public/assets/workshop-bg.jpg') center/cover}
+.page-hero--products{background:linear-gradient(135deg,rgba(7,19,35,.88),rgba(19,37,58,.78)),url('/assets/products-hero-bg.jpg') center/cover}
 
 /* -------- Content layout (sub-pages) -------- */
 .content-layout{display:grid;grid-template-columns:240px 1fr;gap:40px;align-items:start}
@@ -321,7 +321,7 @@ textarea{min-height:150px;resize:vertical}
 }
 
 .visuals-bg{position:relative;isolation:isolate;overflow:hidden}
-.visuals-bg::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(11,15,20,.82),rgba(11,15,20,.92)),url('/public/assets/workshop-bg.jpg');background-size:cover;background-position:center;z-index:-1}
+.visuals-bg::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(11,15,20,.82),rgba(11,15,20,.92)),url('/assets/workshop-bg.jpg');background-size:cover;background-position:center;z-index:-1}
 
 /* Subpage background: gradient + blueprint grid (matches home tile-section) */
 body:has(.page-hero){
