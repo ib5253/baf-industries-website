@@ -182,11 +182,11 @@ section{padding:96px 0;position:relative}
   padding:110px 0 90px;
   background:
     linear-gradient(135deg,rgba(7,19,35,.94),rgba(19,37,58,.85)),
-    url('/assets/hvac-workshop.jpg') center/cover;
+    url('/assets/workshop-bg.jpg') center/cover;
   color:#fff;position:relative;
 }
 .page-hero h1{max-width:930px;margin-top:18px}
-.page-hero--products{background:linear-gradient(135deg,rgba(7,19,35,.88),rgba(19,37,58,.78)),url('/assets/products-hero-bg.jpg') center/cover}
+.page-hero--products{background:linear-gradient(135deg,rgba(7,19,35,.88),rgba(19,37,58,.78)),url('/assets/workshop-bg.jpg') center/cover}
 
 /* -------- Content layout (sub-pages) -------- */
 .content-layout{display:grid;grid-template-columns:240px 1fr;gap:40px;align-items:start}
